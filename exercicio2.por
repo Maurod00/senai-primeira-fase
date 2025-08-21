@@ -46,7 +46,7 @@ programa {
 
     inteiro vitorias, empates
     inteiro pontos
-    escreva("\nDigite o número de vitorias de seu time: ")
+    escreva("\nDigite o número de vitorias do seu time: ")
     leia(vitorias)
 
     escreva("digite o número de empates do seu time: ")
