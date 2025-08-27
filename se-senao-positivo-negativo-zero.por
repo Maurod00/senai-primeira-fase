@@ -6,7 +6,8 @@ programa {
 
     se(num1>0){
     escreva("Seu número é positivo")
-    } senao se(num1 == 0){
+    } senao 
+     se(num1 == 0){
      escreva("Seu número é Nulo")
      }senao{
         escreva("Seu número negativo")
