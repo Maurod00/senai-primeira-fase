@@ -24,7 +24,7 @@ programa {
   limpa()
 
   escreva(nome, " Sua media é: " + media, "\nE sua frequência é: " + frequencia, "% \n")
-  se(media>= 7 e frequencia>= 0.7){
+  se(media>= 7 e frequencia>= 75){
     escreva("Você está Aprovado!")
   } senao{
   escreva("Você foi Reprovado.")
