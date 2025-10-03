@@ -27,8 +27,9 @@
 
 // console.log(alunos.length) 
 
-let frutas = ["Buriti","Graviola","Mangaba","cajuzinho-do-cerrado","Pequi"]
+// let frutas = ["Buriti","Graviola","Mangaba","cajuzinho-do-cerrado","Pequi"]
 
-for(let i = 0; i<frutas.length; i++){
-    console.log("frutas: ", frutas[i])
-}
+// for(let i = 0; i<frutas.length; i++){
+//     console.log("frutas: ", frutas[i])
+// } 
+
