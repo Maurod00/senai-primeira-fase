@@ -4,4 +4,4 @@ for(let i = 1;i <= 100;i++){
     soma += i
 }
 
-alert("O resultado da soma é: " + soma)
+console.log("O resultado da soma é: " + soma)

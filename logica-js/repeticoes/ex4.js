@@ -3,5 +3,5 @@
 let palavra = prompt("Digite uma palavra.")
 
 for(let i = 0; i<=10;i++){
-    alert(palavra)
+    console.log(palavra)
 }
