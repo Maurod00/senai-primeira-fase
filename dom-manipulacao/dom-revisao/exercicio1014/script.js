@@ -10,5 +10,5 @@ function calculoComb(){
 
    consumo = distancia/combustivel
 
-   document.getElementById("resultado").innerHTML = `O consumo é ${consumo} km/L`
+   document.getElementById("resultado").innerHTML = `O consumo é ${consumo.toFixed(3)} km/L`
 }
