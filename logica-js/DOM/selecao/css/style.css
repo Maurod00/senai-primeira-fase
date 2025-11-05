@@ -23,6 +23,7 @@ a {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -62,20 +63,22 @@ main {
 
     section {
         padding: 15px;
-        
-        h2,p{
-          margin-bottom: 15px;  
+
+        h2,
+        p {
+            margin-bottom: 15px;
         }
 
-        p{
-          line-height: 1.5;
+        p {
+            line-height: 1.5;
         }
 
-        h3,h4{
-        margin-bottom: 15px;
+        h3,
+        h4 {
+            margin-bottom: 15px;
         }
 
-        article{
+        article {
             padding: 15px;
         }
 
@@ -84,6 +87,13 @@ main {
                 text-align: justify;
             }
 
+
+        }
+
+        &#economia {
+            article{
+                width: 300px;
+            }
         }
     }
 }
