@@ -103,4 +103,30 @@ main {
 
 footer {
     background-color: #ddd;
+    padding: 15px 0;
+    color: #8d5f0b;
+    text-align: center;
+}
+
+/* arquivo serviços */
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    &#show{
+        background-color: #000e8b;
+    }
+    &#hide{
+        background-color: #e70000;
+    }
+
 }
